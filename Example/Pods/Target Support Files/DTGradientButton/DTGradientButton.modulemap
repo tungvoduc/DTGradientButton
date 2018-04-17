@@ -1,0 +1,6 @@
+framework module DTGradientButton {
+  umbrella header "DTGradientButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

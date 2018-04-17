@@ -20,11 +20,66 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZbI-mV-hKt" customClass="DTGradientButton" customModule="DTGradientButton">
+                                <rect key="frame" x="87.5" y="50" width="200" height="44"/>
+                                <color key="backgroundColor" red="0.17254901959999999" green="0.17254901959999999" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="cvJ-AW-M12"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="kvt-PV-1YY"/>
+                                </constraints>
+                                <state key="normal" title="Tap me!"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MYc-Gq-yJn" customClass="DTGradientButton" customModule="DTGradientButton">
+                                <rect key="frame" x="87" y="144" width="200" height="44"/>
+                                <color key="backgroundColor" red="0.17254901959999999" green="0.17254901959999999" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="58y-s4-TZq"/>
+                                    <constraint firstAttribute="height" constant="44" id="lhv-uM-D5m"/>
+                                </constraints>
+                                <state key="normal" title="Tap me more!"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="51I-1H-Rk4" customClass="DTGradientButton" customModule="DTGradientButton">
+                                <rect key="frame" x="87" y="238" width="200" height="68"/>
+                                <color key="backgroundColor" red="0.17254901959999999" green="0.17254901959999999" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="Qxo-v1-4iK"/>
+                                    <constraint firstAttribute="height" constant="68" id="gk9-Lm-SPb"/>
+                                </constraints>
+                                <state key="normal" title="Tap me even more!"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4kr-Wh-CKs">
+                                <rect key="frame" x="87" y="356" width="200" height="50"/>
+                                <color key="backgroundColor" red="0.17254901959999999" green="0.17254901959999999" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="wbb-Jh-smj"/>
+                                    <constraint firstAttribute="height" constant="50" id="xJv-Jd-Byx"/>
+                                </constraints>
+                                <state key="normal" title="Try here!"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MYc-Gq-yJn" firstAttribute="top" secondItem="ZbI-mV-hKt" secondAttribute="bottom" constant="50" id="4nO-6m-qoZ"/>
+                            <constraint firstItem="MYc-Gq-yJn" firstAttribute="centerX" secondItem="ZbI-mV-hKt" secondAttribute="centerX" id="DLb-Hf-pYV"/>
+                            <constraint firstItem="ZbI-mV-hKt" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="EFo-Vo-lto"/>
+                            <constraint firstItem="ZbI-mV-hKt" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="30" id="EcY-LG-wp5"/>
+                            <constraint firstItem="4kr-Wh-CKs" firstAttribute="centerX" secondItem="51I-1H-Rk4" secondAttribute="centerX" id="Qdf-oO-XeB"/>
+                            <constraint firstItem="4kr-Wh-CKs" firstAttribute="top" secondItem="51I-1H-Rk4" secondAttribute="bottom" constant="50" id="hl3-ux-WYh"/>
+                            <constraint firstItem="51I-1H-Rk4" firstAttribute="centerX" secondItem="ZbI-mV-hKt" secondAttribute="centerX" id="icA-hl-CAt"/>
+                            <constraint firstItem="51I-1H-Rk4" firstAttribute="top" secondItem="MYc-Gq-yJn" secondAttribute="bottom" constant="50" id="zkE-Ny-Z2L"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="button1" destination="ZbI-mV-hKt" id="kiG-Ok-4KG"/>
+                        <outlet property="button2" destination="MYc-Gq-yJn" id="Gbb-Id-Kzr"/>
+                        <outlet property="button3" destination="51I-1H-Rk4" id="24d-c6-L4N"/>
+                        <outlet property="button4" destination="4kr-Wh-CKs" id="C7R-4o-9ma"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="33.733133433283363"/>
         </scene>
     </scenes>
 </document>

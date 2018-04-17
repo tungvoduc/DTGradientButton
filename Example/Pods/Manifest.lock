@@ -1,0 +1,16 @@
+PODS:
+  - DTGradientButton (0.1.0)
+
+DEPENDENCIES:
+  - DTGradientButton (from `../`)
+
+EXTERNAL SOURCES:
+  DTGradientButton:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DTGradientButton: 5902bea462f74e59b085b5aa1257fd69c1e608a0
+
+PODFILE CHECKSUM: d8badb7f0094933000a9aab0dba21567b39236db
+
+COCOAPODS: 1.4.0

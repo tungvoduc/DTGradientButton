@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6AE36142FEF75E199F326D42 /* Pods_DTGradientButton_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72CE17C2E21D0B072EDFE0A /* Pods_DTGradientButton_Tests.framework */; };
+		84280B492085FE6500C2BBE6 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84280B482085FE6500C2BBE6 /* UIColorExtension.swift */; };
 		C8239073ABB2E75A6B368D5B /* Pods_DTGradientButton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA182A3BCFDA76548411B59 /* Pods_DTGradientButton_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +30,7 @@
 
 /* Begin PBXFileReference section */
 		2EA182A3BCFDA76548411B59 /* Pods_DTGradientButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTGradientButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		54C9A77D0D1C88A70ADCA252 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		54C9A77D0D1C88A70ADCA252 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DTGradientButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTGradientButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,10 +42,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		784BC6170B38988764CC4428 /* Pods-DTGradientButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTGradientButton_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTGradientButton_Tests/Pods-DTGradientButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		84280B482085FE6500C2BBE6 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		8A176BF309EE363FFF556B04 /* Pods-DTGradientButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTGradientButton_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTGradientButton_Example/Pods-DTGradientButton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9098DEE60E5FB70FD487EC16 /* DTGradientButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DTGradientButton.podspec; path = ../DTGradientButton.podspec; sourceTree = "<group>"; };
+		9098DEE60E5FB70FD487EC16 /* DTGradientButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DTGradientButton.podspec; path = ../DTGradientButton.podspec; sourceTree = "<group>"; };
 		A72CE17C2E21D0B072EDFE0A /* Pods_DTGradientButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTGradientButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B45BB999CF2DA756D5571D2A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B45BB999CF2DA756D5571D2A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CBB3D1F72553C7D11569355E /* Pods-DTGradientButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTGradientButton_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTGradientButton_Tests/Pods-DTGradientButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E9B260D8CD2609177BD08674 /* Pods-DTGradientButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTGradientButton_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTGradientButton_Example/Pods-DTGradientButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +97,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				84280B482085FE6500C2BBE6 /* UIColorExtension.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -372,6 +375,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				84280B492085FE6500C2BBE6 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,7 +462,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -504,7 +508,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
