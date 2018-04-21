@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DTGradientButton'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DTGradientButton.'
+  s.summary          = 'Easy way to set gradient background to your buttons.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+DTGradientButton provide all UIButton a quick and easy way to set gradient background for each control state. In addition, you can also quickly create gradient image.
                        DESC
 
   s.homepage         = 'https://github.com/tungvoduc/DTGradientButton'
@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'tungvoduc' => 'tung98.dn@gmail.com' }
   s.source           = { :git => 'https://github.com/tungvoduc/DTGradientButton.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.swift_version    = '4.0'
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'DTGradientButton/Classes/**/*'
