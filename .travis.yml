@@ -1,5 +1,4 @@
-language: ruby
-rvm:
- - 2.2
- - jruby
- - rbx-3
+language: swift
+xcode_workspace: Example/DTGradientButton.xcworkspace
+xcode_scheme: DTGradientButton_Example
+osx_image: xcode9.3
