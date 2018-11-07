@@ -27,7 +27,7 @@ DTGradientButton provide all UIButton a quick and easy way to set gradient backg
   s.author           = { 'tungvoduc' => 'tung98.dn@gmail.com' }
   s.source           = { :git => 'https://github.com/tungvoduc/DTGradientButton.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-  s.swift_version    = '4.0'
+  s.swift_version    = '4.2'
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'DTGradientButton/Classes/**/*'
