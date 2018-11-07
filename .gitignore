@@ -1,6 +1,6 @@
 # OS X
 .DS_Store
-
+Example/DTGradientButton.xcworkspace/xcshareddata/
 # Xcode
 build/
 *.pbxuser
