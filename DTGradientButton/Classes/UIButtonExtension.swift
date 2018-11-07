@@ -9,7 +9,7 @@
 import UIKit
 
 public extension UIButton {
-    public func setGradientBackgroundColors(_ colors: [UIColor], direction: DTImageGradientDirection, for state: UIControlState) {
+    public func setGradientBackgroundColors(_ colors: [UIColor], direction: DTImageGradientDirection, for state: UIControl.State) {
         if colors.count > 1 {
             // Gradient background
             setBackgroundImage(UIImage(size: CGSize(width: 1, height: 1), direction: direction, colors: colors), for: state)

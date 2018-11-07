@@ -45,7 +45,7 @@ public extension UIImage {
                 locations.append(index / CGFloat(colors.count - 1))
             }
             
-            guard let gradient = CGGradient(colorSpace: CGColorSpaceCreateDeviceRGB(), colorComponents: colors.flatMap { $0.cgColor.components }.flatMap { $0 }, locations: locations, count: colors.count) else {
+            guard let gradient = CGGradient(colorSpace: CGColorSpaceCreateDeviceRGB(), colorComponents: colors.compactMap { $0.cgColor.components }.flatMap { $0 }, locations: locations, count: colors.count) else {
                 return nil
             }
             

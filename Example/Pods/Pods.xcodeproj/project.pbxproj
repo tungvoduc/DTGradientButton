@@ -61,7 +61,7 @@
 		C58218FBBFC6AA0D98419FC5F5B78D32 /* Pods-DTGradientButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTGradientButton_Tests-dummy.m"; sourceTree = "<group>"; };
 		D44FDF213D732AF5E7F4FEBDECC3EAF8 /* Pods_DTGradientButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTGradientButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D764DF3939323B22E0F9C5447A28CDED /* Pods-DTGradientButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DTGradientButton_Tests.modulemap"; sourceTree = "<group>"; };
-		E480AA224F8FD66A1DA6F6EB7FB5149E /* DTGradientButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = DTGradientButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E480AA224F8FD66A1DA6F6EB7FB5149E /* DTGradientButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = DTGradientButton.podspec; sourceTree = "<group>"; };
 		E51FE49C805D9B3B477B9E320FA9EE98 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E550D169ED5FE6EC4F59584646413635 /* DTGradientButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTGradientButton-dummy.m"; sourceTree = "<group>"; };
 		EB71A013114FD9B0BA2114BFA3CE8605 /* Pods-DTGradientButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTGradientButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -616,7 +616,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -648,7 +648,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
