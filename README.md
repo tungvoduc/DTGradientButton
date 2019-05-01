@@ -1,6 +1,5 @@
 # DTGradientButton
 
-[![CI Status](http://img.shields.io/travis/tungvoduc/DTGradientButton.svg?style=flat)](https://travis-ci.org/tungvoduc/DTGradientButton)
 [![Version](https://img.shields.io/cocoapods/v/DTGradientButton.svg?style=flat)](http://cocoapods.org/pods/DTGradientButton)
 [![License](https://img.shields.io/cocoapods/l/DTGradientButton.svg?style=flat)](http://cocoapods.org/pods/DTGradientButton)
 [![Platform](https://img.shields.io/cocoapods/p/DTGradientButton.svg?style=flat)](http://cocoapods.org/pods/DTGradientButton)
