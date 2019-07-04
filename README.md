@@ -45,13 +45,22 @@ let image = UIImage(size: CGSize(width: 100, height: 100), direction: .toBottom,
 
 ## Requirements
 ### iOS 8.0
+
 ## Installation
 
-DTGradientButton is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+### CocoaPods
+Add the following line to your Podfile:
 
 ```ruby
 pod 'DTGradientButton'
+```
+
+### Swift package manager
+`DTGradientButton ` is available for SPM from version `0.1.3`.
+Add the following to the dependencies of your `Package.swift`:
+
+```swift
+.package(url: "https://github.com/tungvoduc/DTGradientButton", from: "version")
 ```
 
 ## Author
@@ -61,3 +70,7 @@ Tung Vo, tung98.dn@gmail.com
 ## License
 
 DTGradientButton is available under the MIT license. See the LICENSE file for more info.
+
+## Feedbacks & requests
+- Open an issue if you find a bug, make a proposal or simply need some help.
+- You can also contact me via [email](mailto:tung98.dn@gmail.com).
